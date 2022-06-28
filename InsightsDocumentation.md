@@ -7,20 +7,20 @@ when at equal
 ```
 
 ## Array Insert
-```
+```py
 ans = []
 ans += number,
 ```
 
 ## Graph Insert
-```
+```py
 graph = {}
 for key, value in items:
    graph[key] = graph.get(key, []) + value,
 ```
 
 ## Trie Insert
-```
+```py
 trie = {}
 t = trie
 for i in key:  t[i] = t = t.get(i, {})
